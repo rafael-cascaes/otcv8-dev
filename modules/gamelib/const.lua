@@ -198,6 +198,12 @@ GamePacketCompression = 111
 
 GameOldInformationBar = 112
 GameHealthInfoBackground = 113
+GameWingOffset = 114
+GameAuraFrontAndBack = 115 -- To use that: First layer is bottom/back, second (blend layer) is top/front
+
+GameMapDrawGroundFirst = 116 -- useful for big auras & wings
+GameMapIgnoreCorpseCorrection = 117
+GameDontCacheFiles = 118 -- doesn't work with encryption and compression
 
 LastGameFeature = 130
         
